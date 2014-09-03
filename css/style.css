@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Gee Mail</title>
+		<script src="js/mail-generator.js"></script>
+		<link href="css/style.css" rel="stylesheet" media="screen">
+	</head>
+
+	<body>       
+		<div class="container" id="main">
+		    <header>
+			<div class="header">
+			    
+			<div>
+			<a href="https://mail.google.com">Gee Mail</a>
+<img src="http://images.nymag.com/images/2/daily/2008/12/20081203_google_250x250.jpg">
+        </div>
+            <h1>compose</h1>
+			<ul>
+				<li><a href="#">inbox()<a></li>
+				<li><a href="#">sent<a></li>
+				<li><a href="#">draft<a></li>
+				<li><a href="#">trash<a></li>
+			</ul>
+				
+			<ul>
+				<li><a href="#">search<a></li>
+				<li><a href="#">maps<a></li>
+				<li><a href="#">setting></li>
+				<li><a href="#">help<a></li>
+			</ul>
+		</div>
+	</div>
+		
+	</body>
+	<footer>
+	<img src="http://www.southerncrossit.co.uk/images/gfx/google-apps-logo.jpg">
+	</footer>
+</html>
+
+search
+settings
+help
+
+gmail
+copy image address
+google drive
+
+
+
+
+
+gmail
+copy image address
+google drive
