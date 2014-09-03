@@ -57,9 +57,12 @@ function getRandomElement(arr){
 }
 
 /*EJL-Set a recurring function to via the JavaScript setTimeout function that will call a getNewMessagefunction that we have created for you that will return a newly created message with the same properties as your previous messages.*/
-function getNewMessage(){
-	var now = new Date();
-	return generateMessage(now);
+function checkInbox(){
+var message =
+window.getNewMessage();
+prependMessage(message_inbox, message);
+update EmptyBoxMessage(messages_inbox);
+updateInboxCount();
 }
 
 function getRandomDate(){
