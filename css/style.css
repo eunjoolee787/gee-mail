@@ -1,21 +1,47 @@
-
-/* Basic styling */
-
-.inbox li {
-  border-bottom: 1px solid #636366;
-  font-family: 'Open Sans', sans-serif;
-  line-height: 45px;
-  padding-bottom: 3px;
-  padding-left: 20px;
-  padding-top: 3px;
-}
-
-
 .icon-close {
   cursor: pointer;
   padding-left: 10px;
   padding-top: 10px;
+}  
+
+.inbox{
+    height: 50px;
+    width: 120px;
+    border-color: #ff0000;
+    background-color: #dc143c;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
 }
+
+.icon-inbox {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}  
+
+.nav li{
+    display: inline;
+}
+
+.nav li{
+    color: #808080;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 16px 12px;
+    text-transfor: uppercase;
+}
+
+p{
+    color: #ff0000;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 40px; 
+
+
+/* EJL-----starting over to see how this goes}; */
+
+
 
 .icon-inbox {
   color: #fff;
@@ -51,7 +77,7 @@ a{
 }
 
 .nav a{
-    color: #2f4f4f;
+    color: #808080;
     font-size: 12px;
     font-weight: bold;
     padding: 16px 12px;
