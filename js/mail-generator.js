@@ -14,7 +14,7 @@ function loadGeeMails(){
 		window.geemails.push(message);
 	}
 }
-/*EJL???-Set a recurring function to via the JavaScript setTimeout function that will call a getNewMessagefunction that we have created for you that will return a newly created message with the same properties as your previous messages.*/
+/*EJL???-When clicking on a message you must provide some method of showing the message for that row.*/
 function generateMessage(date){
 	var message = {};
 	message.date = date || getRandomDate();
