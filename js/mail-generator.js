@@ -29,27 +29,26 @@ function loadGeeMails(){
 var main = function(){
 $('.icon-menu').click(function);
 $('.menu').animate({
-	left: '0px'
-}, 200);
+	console.log(emails.inbox);
+};
 
 $('body').animate({
-	left: '258px'
-}, 200);
-
+	console.log(emails.inbox);
+};
 });
 
 $(document).ready(main);
 $('icon-close').click(function){
 $('icon-close').click(function){
 $('menu').animate({
-	left: '258px'
-}, 200);
+	console.log(emails.inbox);
+};
 
 $('body').animate({
-	left: '200px'
-},200);
-
+	console.log(emails.inbox);
+};
 });
+
 
 
 
