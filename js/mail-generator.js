@@ -19,7 +19,7 @@ function loadGeeMails(){
 	if(emails.length >1){
 		console.log("You have mail")
 	} else {
-		console.log();
+		console.log(email_count +=1);
 	}
 
 	}
