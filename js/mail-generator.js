@@ -56,9 +56,9 @@ $('body').animate({
 /*EJL---TESTER---*/
 function generateMessage(date){
 	var message = {};
-	message.date = date || getRandomDate();
-	message.subject = getRandomElement(subject);
-	message.sender = getRandomElement(sender);
+	message.date = ("<li>" + message.date "</li>");
+	message.subject = ("<li>" + message.subject "</li>");
+	message.sender = ("<li>" + message.sender "</li>");
 	return message;
 }
 
